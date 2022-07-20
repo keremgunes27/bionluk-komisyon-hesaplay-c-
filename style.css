@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 300px;
+    padding-bottom: 30px;
+}
+header{
+    background-color: #FD4056;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+header img{
+    width: 100px;
+    height: auto;
+}
+#content{
+    padding: 0 10px;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dedede;
+    color: #222;
+    font-size: 14px;
+    margin: 5px 0 20px 0;
+    outline: none;
+    transition: 200ms all;
+}
+input:focus{
+    border-color: #FD4056;
+}
+label{
+    display: block;
+    margin-top: 20px;
+}
